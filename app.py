@@ -9,3 +9,6 @@ print('You are ' + str(age))
 
 
 print(f"{name}")
+
+
+#Loops
