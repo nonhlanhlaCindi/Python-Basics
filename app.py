@@ -14,20 +14,28 @@
 #Loops
 #FLOOR CONTROL
 
-# age = 19
-# if age > 19:
-#         print('You are an adult')
+age = 18
+id = True
+
+if id == True and age >= 21: 
+        print('You are welcome to CAVO BY SKHOTHENI')
         
-# else:   print('You are a teenager')
-
-x = 2
-
-if x > 2:
-    print('you have gotten 23')
+elif id == True and age < 21:
+    print('Go home and do your homework, you are still a child')
     
-elif x == 5:
-    print('goten just 2')
+elif id == False and age > 21:
+    print('Provide proof')
+
+
+
+# x = 2
+
+# if x > 2:
+#     print('you have gotten 23')
     
-else: x
-print('Such a low score')
+# elif x == 5:
+#     print('goten just 2')
+    
+# else: x
+# print('Such a low score')
 
